@@ -1,0 +1,216 @@
+rain] Class 0: Precision: 0.7653, Recall: 0.9056
+[Train] Class 1: Precision: 0.5083, Recall: 0.5083
+[Train] Class 2: Precision: 0.4368, Recall: 0.3167
+[Train] Class 3: Precision: 0.4729, Recall: 0.6542
+[Train] Class 4: Precision: 0.2857, Recall: 0.0667
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:06<00:00,  2.78 batch/s] 
+[Val] Kappa: 0.6864 Accuracy: 0.5950 Precision: 0.5730 Recall: 0.5950
+
+Epoch 7/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:52<00:00,  1.05s/ batch, lr=1.0e-04, Loss=0.9176] 
+[Train] Kappa: 0.7180 Accuracy: 0.5717 Precision: 0.5491 Recall: 0.5717 Loss: 1.0696
+[Train] Class 0: Precision: 0.7434, Recall: 0.8611
+[Train] Class 1: Precision: 0.5427, Recall: 0.5292
+[Train] Class 2: Precision: 0.4262, Recall: 0.3250
+[Train] Class 3: Precision: 0.4887, Recall: 0.6333
+[Train] Class 4: Precision: 0.3455, Recall: 0.1583
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:06<00:00,  2.78 batch/s]
+[Val] Kappa: 0.6610 Accuracy: 0.6100 Precision: 0.5550 Recall: 0.6100
+
+Epoch 8/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:52<00:00,  1.06s/ batch, lr=1.0e-04, Loss=0.9430] 
+[Train] Kappa: 0.7069 Accuracy: 0.5733 Precision: 0.5284 Recall: 0.5733 Loss: 1.0418
+[Train] Class 0: Precision: 0.7483, Recall: 0.9333
+[Train] Class 1: Precision: 0.5755, Recall: 0.5083
+[Train] Class 2: Precision: 0.3547, Recall: 0.2542
+[Train] Class 3: Precision: 0.4865, Recall: 0.6750
+[Train] Class 4: Precision: 0.2059, Recall: 0.0583
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:06<00:00,  2.78 batch/s] 
+[Val] Kappa: 0.7857 Accuracy: 0.6125 Precision: 0.6424 Recall: 0.6125
+
+Epoch 9/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:52<00:00,  1.06s/ batch, lr=1.0e-04, Loss=0.9062] 
+[Train] Kappa: 0.7002 Accuracy: 0.5800 Precision: 0.5511 Recall: 0.5800 Loss: 1.0505
+[Train] Class 0: Precision: 0.7734, Recall: 0.8722
+[Train] Class 1: Precision: 0.5304, Recall: 0.5458
+[Train] Class 2: Precision: 0.4467, Recall: 0.3667
+[Train] Class 3: Precision: 0.4935, Recall: 0.6375
+[Train] Class 4: Precision: 0.2500, Recall: 0.0833
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:05<00:00,  2.85 batch/s] 
+[Val] Kappa: 0.6351 Accuracy: 0.6075 Precision: 0.5327 Recall: 0.6075
+
+Epoch 10/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:52<00:00,  1.04s/ batch, lr=1.0e-04, Loss=0.9699] 
+[Train] Kappa: 0.7465 Accuracy: 0.6142 Precision: 0.5875 Recall: 0.6142 Loss: 0.9982
+[Train] Class 0: Precision: 0.7859, Recall: 0.9278
+[Train] Class 1: Precision: 0.5957, Recall: 0.5708
+[Train] Class 2: Precision: 0.4677, Recall: 0.3625
+[Train] Class 3: Precision: 0.5156, Recall: 0.6875
+[Train] Class 4: Precision: 0.3590, Recall: 0.1167
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:06<00:00,  2.77 batch/s] 
+[Val] Kappa: 0.7639 Accuracy: 0.6325 Precision: 0.6707 Recall: 0.6325
+
+Epoch 11/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:52<00:00,  1.05s/ batch, lr=1.0e-05, Loss=0.9613] 
+[Train] Kappa: 0.7481 Accuracy: 0.6283 Precision: 0.6093 Recall: 0.6283 Loss: 0.9540
+[Train] Class 0: Precision: 0.7995, Recall: 0.9194
+[Train] Class 1: Precision: 0.5788, Recall: 0.6583
+[Train] Class 2: Precision: 0.4393, Recall: 0.3917
+[Train] Class 3: Precision: 0.5935, Recall: 0.6083
+[Train] Class 4: Precision: 0.4717, Recall: 0.2083
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:06<00:00,  2.79 batch/s] 
+[Val] Kappa: 0.7512 Accuracy: 0.6275 Precision: 0.6633 Recall: 0.6275
+
+Epoch 12/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:52<00:00,  1.05s/ batch, lr=1.0e-05, Loss=0.7693] 
+[Train] Kappa: 0.7904 Accuracy: 0.6400 Precision: 0.6232 Recall: 0.6400 Loss: 0.9320
+[Train] Class 0: Precision: 0.8222, Recall: 0.9250
+[Train] Class 1: Precision: 0.6080, Recall: 0.6333
+[Train] Class 2: Precision: 0.4815, Recall: 0.4333
+[Train] Class 3: Precision: 0.5634, Recall: 0.6292
+[Train] Class 4: Precision: 0.4590, Recall: 0.2333
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:06<00:00,  2.78 batch/s] 
+[Val] Kappa: 0.7534 Accuracy: 0.6650 Precision: 0.6895 Recall: 0.6650
+
+Epoch 13/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:52<00:00,  1.05s/ batch, lr=1.0e-05, Loss=0.8787] 
+[Train] Kappa: 0.7951 Accuracy: 0.6492 Precision: 0.6350 Recall: 0.6492 Loss: 0.9167
+[Train] Class 0: Precision: 0.8015, Recall: 0.9194
+[Train] Class 1: Precision: 0.6298, Recall: 0.6167
+[Train] Class 2: Precision: 0.5048, Recall: 0.4375
+[Train] Class 3: Precision: 0.5724, Recall: 0.7083
+[Train] Class 4: Precision: 0.5319, Recall: 0.2083
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:06<00:00,  2.78 batch/s] 
+[Val] Kappa: 0.7743 Accuracy: 0.6625 Precision: 0.6881 Recall: 0.6625
+
+Epoch 14/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:52<00:00,  1.05s/ batch, lr=1.0e-05, Loss=1.0508] 
+[Train] Kappa: 0.8070 Accuracy: 0.6408 Precision: 0.6214 Recall: 0.6408 Loss: 0.8823
+[Train] Class 0: Precision: 0.8437, Recall: 0.9444
+[Train] Class 1: Precision: 0.6483, Recall: 0.6375
+[Train] Class 2: Precision: 0.4950, Recall: 0.4167
+[Train] Class 3: Precision: 0.5064, Recall: 0.6583
+[Train] Class 4: Precision: 0.3830, Recall: 0.1500
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:06<00:00,  2.78 batch/s]
+[Val] Kappa: 0.7902 Accuracy: 0.6700 Precision: 0.7020 Recall: 0.6700
+
+Epoch 15/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:52<00:00,  1.04s/ batch, lr=1.0e-05, Loss=0.7957] 
+[Train] Kappa: 0.7872 Accuracy: 0.6442 Precision: 0.6342 Recall: 0.6442 Loss: 0.9246
+[Train] Class 0: Precision: 0.8175, Recall: 0.9333
+[Train] Class 1: Precision: 0.5932, Recall: 0.5833
+[Train] Class 2: Precision: 0.4975, Recall: 0.4083
+[Train] Class 3: Precision: 0.5519, Recall: 0.7083
+[Train] Class 4: Precision: 0.6042, Recall: 0.2417
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:05<00:00,  2.88 batch/s] 
+[Val] Kappa: 0.7960 Accuracy: 0.6775 Precision: 0.7121 Recall: 0.6775
+
+Epoch 16/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:50<00:00,  1.01s/ batch, lr=1.0e-05, Loss=0.8805] 
+[Train] Kappa: 0.8186 Accuracy: 0.6617 Precision: 0.6463 Recall: 0.6617 Loss: 0.8560
+[Train] Class 0: Precision: 0.8333, Recall: 0.9306
+[Train] Class 1: Precision: 0.6345, Recall: 0.6292
+[Train] Class 2: Precision: 0.5707, Recall: 0.4708
+[Train] Class 3: Precision: 0.5500, Recall: 0.7333
+[Train] Class 4: Precision: 0.4524, Recall: 0.1583
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:05<00:00,  2.86 batch/s] 
+[Val] Kappa: 0.7968 Accuracy: 0.6775 Precision: 0.7159 Recall: 0.6775
+
+Epoch 17/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:50<00:00,  1.01s/ batch, lr=1.0e-05, Loss=0.7321] 
+[Train] Kappa: 0.8018 Accuracy: 0.6525 Precision: 0.6360 Recall: 0.6525 Loss: 0.8790
+[Train] Class 0: Precision: 0.8284, Recall: 0.9389
+[Train] Class 1: Precision: 0.6624, Recall: 0.6458
+[Train] Class 2: Precision: 0.4952, Recall: 0.4292
+[Train] Class 3: Precision: 0.5476, Recall: 0.6708
+[Train] Class 4: Precision: 0.4643, Recall: 0.2167
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:05<00:00,  2.87 batch/s] 
+[Val] Kappa: 0.8039 Accuracy: 0.6800 Precision: 0.6875 Recall: 0.6800
+
+Epoch 18/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:50<00:00,  1.01s/ batch, lr=1.0e-05, Loss=1.1676] 
+[Train] Kappa: 0.8113 Accuracy: 0.6692 Precision: 0.6543 Recall: 0.6692 Loss: 0.8527
+[Train] Class 0: Precision: 0.8260, Recall: 0.9361
+[Train] Class 1: Precision: 0.6387, Recall: 0.6333
+[Train] Class 2: Precision: 0.5381, Recall: 0.4708
+[Train] Class 3: Precision: 0.5966, Recall: 0.7208
+[Train] Class 4: Precision: 0.5185, Recall: 0.2333
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:05<00:00,  2.86 batch/s] 
+[Val] Kappa: 0.7933 Accuracy: 0.6725 Precision: 0.6814 Recall: 0.6725
+
+Epoch 19/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:50<00:00,  1.01s/ batch, lr=1.0e-05, Loss=0.6352] 
+[Train] Kappa: 0.8102 Accuracy: 0.6767 Precision: 0.6595 Recall: 0.6767 Loss: 0.8459
+[Train] Class 0: Precision: 0.8444, Recall: 0.9500
+[Train] Class 1: Precision: 0.6638, Recall: 0.6500
+[Train] Class 2: Precision: 0.5577, Recall: 0.4833
+[Train] Class 3: Precision: 0.5850, Recall: 0.7167
+[Train] Class 4: Precision: 0.4483, Recall: 0.2167
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:05<00:00,  2.86 batch/s] 
+[Val] Kappa: 0.7863 Accuracy: 0.6775 Precision: 0.7063 Recall: 0.6775
+
+Epoch 20/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:50<00:00,  1.02s/ batch, lr=1.0e-05, Loss=0.9366] 
+[Train] Kappa: 0.8125 Accuracy: 0.6658 Precision: 0.6525 Recall: 0.6658 Loss: 0.8727
+[Train] Class 0: Precision: 0.8248, Recall: 0.9417
+[Train] Class 1: Precision: 0.6895, Recall: 0.6292
+[Train] Class 2: Precision: 0.5490, Recall: 0.4667
+[Train] Class 3: Precision: 0.5472, Recall: 0.7250
+[Train] Class 4: Precision: 0.4792, Recall: 0.1917
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:05<00:00,  2.86 batch/s] 
+[Val] Kappa: 0.7669 Accuracy: 0.6625 Precision: 0.6619 Recall: 0.6625
+
+Epoch 21/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:50<00:00,  1.02s/ batch, lr=1.0e-06, Loss=0.7515] 
+[Train] Kappa: 0.8256 Accuracy: 0.6608 Precision: 0.6502 Recall: 0.6608 Loss: 0.8592
+[Train] Class 0: Precision: 0.8420, Recall: 0.9472
+[Train] Class 1: Precision: 0.6393, Recall: 0.6500
+[Train] Class 2: Precision: 0.5048, Recall: 0.4417
+[Train] Class 3: Precision: 0.5545, Recall: 0.7000
+[Train] Class 4: Precision: 0.5789, Recall: 0.1833
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:05<00:00,  2.86 batch/s] 
+[Val] Kappa: 0.7723 Accuracy: 0.6625 Precision: 0.6686 Recall: 0.6625
+
+Epoch 22/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:50<00:00,  1.01s/ batch, lr=1.0e-06, Loss=0.9886] 
+[Train] Kappa: 0.8251 Accuracy: 0.6775 Precision: 0.6675 Recall: 0.6775 Loss: 0.8463
+[Train] Class 0: Precision: 0.8383, Recall: 0.9361
+[Train] Class 1: Precision: 0.6681, Recall: 0.6458
+[Train] Class 2: Precision: 0.5507, Recall: 0.4750
+[Train] Class 3: Precision: 0.5791, Recall: 0.7167
+[Train] Class 4: Precision: 0.5645, Recall: 0.2917
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:05<00:00,  2.87 batch/s] 
+[Val] Kappa: 0.7749 Accuracy: 0.6700 Precision: 0.6770 Recall: 0.6700
+
+Epoch 23/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:50<00:00,  1.02s/ batch, lr=1.0e-06, Loss=0.8096] 
+[Train] Kappa: 0.8068 Accuracy: 0.6542 Precision: 0.6380 Recall: 0.6542 Loss: 0.8604
+[Train] Class 0: Precision: 0.8241, Recall: 0.9500
+[Train] Class 1: Precision: 0.6404, Recall: 0.6083
+[Train] Class 2: Precision: 0.5000, Recall: 0.4625
+[Train] Class 3: Precision: 0.5714, Recall: 0.6500
+[Train] Class 4: Precision: 0.4839, Recall: 0.2500
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:05<00:00,  2.86 batch/s] 
+[Val] Kappa: 0.7711 Accuracy: 0.6700 Precision: 0.6771 Recall: 0.6700
+
+Epoch 24/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:50<00:00,  1.01s/ batch, lr=1.0e-06, Loss=0.9125] 
+[Train] Kappa: 0.8045 Accuracy: 0.6625 Precision: 0.6525 Recall: 0.6625 Loss: 0.8390
+[Train] Class 0: Precision: 0.8359, Recall: 0.9194
+[Train] Class 1: Precision: 0.6121, Recall: 0.5917
+[Train] Class 2: Precision: 0.5385, Recall: 0.4958
+[Train] Class 3: Precision: 0.5828, Recall: 0.7333
+[Train] Class 4: Precision: 0.5510, Recall: 0.2250
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:05<00:00,  2.87 batch/s] 
+[Val] Kappa: 0.7629 Accuracy: 0.6725 Precision: 0.6800 Recall: 0.6725
+
+Epoch 25/25
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:50<00:00,  1.01s/ batch, lr=1.0e-06, Loss=0.7488] 
+[Train] Kappa: 0.8263 Accuracy: 0.6792 Precision: 0.6641 Recall: 0.6792 Loss: 0.8353
+[Train] Class 0: Precision: 0.8386, Recall: 0.9528
+[Train] Class 1: Precision: 0.6611, Recall: 0.6583
+[Train] Class 2: Precision: 0.5493, Recall: 0.4875
+[Train] Class 3: Precision: 0.5923, Recall: 0.7083
+[Train] Class 4: Precision: 0.5192, Recall: 0.2250
+Evaluating: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:05<00:00,  2.86 batch/s] 
+[Val] Kappa: 0.7724 Accuracy: 0.6625 Precision: 0.6675 Recall: 0.6625

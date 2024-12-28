@@ -1,0 +1,565 @@
+PS C:\Users\Ali Goodarzi\Desktop\deep learning\deep project\521153S-3005-final-project\release>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                ^C
+PS C:\Users\Ali Goodarzi\Desktop\deep learning\deep project\521153S-3005-final-project\release> & "C:/Users/Ali Goodarzi/AppData/Local/Programs/Python/Python312/python.exe" "c:/Users/Ali Goodarzi/Desktop/deep learning/deep project/521153S-3005-final-project/release/task_c.py"
+C:\Users\Ali Goodarzi\AppData\Local\Programs\Python\Python312\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+C:\Users\Ali Goodarzi\AppData\Local\Programs\Python\Python312\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet34_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet34_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+MyDualModel_resnet34(
+  (backbone1): ResNet(
+    (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+    (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace=True)
+    (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+    (layer1): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (1): BasicBlock(
+        (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): BasicBlock(
+        (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (layer2): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (downsample): Sequential(
+          (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+          (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): BasicBlock(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): BasicBlock(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (3): BasicBlock(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (layer3): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (downsample): Sequential(
+          (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+          (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): BasicBlock(
+        (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): BasicBlock(
+        (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (3): BasicBlock(
+        (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (4): BasicBlock(
+        (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (5): BasicBlock(
+        (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (layer4): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (downsample): Sequential(
+          (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+          (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): BasicBlock(
+        (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): BasicBlock(
+        (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+    (fc): Identity()
+  )
+  (backbone2): ResNet(
+    (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+    (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace=True)
+    (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+    (layer1): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (1): BasicBlock(
+        (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): BasicBlock(
+        (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (layer2): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (downsample): Sequential(
+          (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+          (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): BasicBlock(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): BasicBlock(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (3): BasicBlock(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (layer3): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (downsample): Sequential(
+          (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+          (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): BasicBlock(
+        (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): BasicBlock(
+        (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (3): BasicBlock(
+        (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (4): BasicBlock(
+        (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (5): BasicBlock(
+        (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (layer4): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (downsample): Sequential(
+          (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+          (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): BasicBlock(
+        (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (2): BasicBlock(
+        (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace=True)
+        (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+    (fc): Identity()
+  )
+  (channel_attention1): ChannelAttention(
+    (avg_pool): AdaptiveAvgPool2d(output_size=1)
+    (max_pool): AdaptiveMaxPool2d(output_size=1)
+    (fc1): Conv2d(512, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (relu1): ReLU()
+    (fc2): Conv2d(32, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (sigmoid): Sigmoid()
+  )
+  (spatial_attention1): SpatialAttention(
+    (conv1): Conv2d(2, 1, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), bias=False)
+    (sigmoid): Sigmoid()
+  )
+  (channel_attention2): ChannelAttention(
+    (avg_pool): AdaptiveAvgPool2d(output_size=1)
+    (max_pool): AdaptiveMaxPool2d(output_size=1)
+    (fc1): Conv2d(512, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (relu1): ReLU()
+    (fc2): Conv2d(32, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (sigmoid): Sigmoid()
+  )
+  (spatial_attention2): SpatialAttention(
+    (conv1): Conv2d(2, 1, kernel_size=(7, 7), stride=(1, 1), padding=(3, 3), bias=False)
+    (sigmoid): Sigmoid()
+  )
+  (fc): Sequential(
+    (0): Linear(in_features=1024, out_features=256, bias=True)
+    (1): ReLU(inplace=True)
+    (2): Dropout(p=0.5, inplace=False)
+    (3): Linear(in_features=256, out_features=128, bias=True)
+    (4): ReLU(inplace=True)
+    (5): Dropout(p=0.5, inplace=False)
+    (6): Linear(in_features=128, out_features=5, bias=True)
+  )
+) 
+
+Pipeline Mode: dual
+Device: cpu
+
+Epoch 1/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:44<00:00,  1.80s/ batch, lr=1.0e-04, Loss=1.3590] 
+[Train] Kappa: 0.2381 Accuracy: 0.3217 Precision: 0.2602 Recall: 0.3217 Loss: 1.4987
+[Train] Class 0: Precision: 0.4169, Recall: 0.7944
+[Train] Class 1: Precision: 0.1905, Recall: 0.1333
+[Train] Class 2: Precision: 0.1642, Recall: 0.0917
+[Train] Class 3: Precision: 0.2917, Recall: 0.1750
+[Train] Class 4: Precision: 0.0588, Recall: 0.0333
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:05<00:00,  1.61 batch/s] 
+[Val] Kappa: 0.2383 Accuracy: 0.3250 Precision: 0.2045 Recall: 0.3250
+
+Epoch 2/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:47<00:00,  1.89s/ batch, lr=1.0e-04, Loss=1.1040] 
+[Train] Kappa: 0.6159 Accuracy: 0.4733 Precision: 0.4214 Recall: 0.4733 Loss: 1.2386
+[Train] Class 0: Precision: 0.6825, Recall: 0.9556
+[Train] Class 1: Precision: 0.3636, Recall: 0.2333
+[Train] Class 2: Precision: 0.2564, Recall: 0.2500
+[Train] Class 3: Precision: 0.3696, Recall: 0.4250
+[Train] Class 4: Precision: 0.1875, Recall: 0.0500
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:05<00:00,  1.56 batch/s] 
+[Val] Kappa: 0.6733 Accuracy: 0.5700 Precision: 0.4903 Recall: 0.5700
+
+Epoch 3/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:52<00:00,  2.09s/ batch, lr=1.0e-04, Loss=1.3453] 
+[Train] Kappa: 0.7011 Accuracy: 0.5583 Precision: 0.5328 Recall: 0.5583 Loss: 1.1226
+[Train] Class 0: Precision: 0.7945, Recall: 0.9667
+[Train] Class 1: Precision: 0.4336, Recall: 0.4083
+[Train] Class 2: Precision: 0.3451, Recall: 0.3250
+[Train] Class 3: Precision: 0.4748, Recall: 0.5500
+[Train] Class 4: Precision: 0.4375, Recall: 0.1167
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:05<00:00,  1.54 batch/s] 
+[Val] Kappa: 0.6819 Accuracy: 0.6000 Precision: 0.5221 Recall: 0.6000
+
+Epoch 4/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:48<00:00,  1.96s/ batch, lr=1.0e-04, Loss=1.0231] 
+[Train] Kappa: 0.7694 Accuracy: 0.6067 Precision: 0.5854 Recall: 0.6067 Loss: 0.9927
+[Train] Class 0: Precision: 0.8195, Recall: 0.9333
+[Train] Class 1: Precision: 0.5469, Recall: 0.5833
+[Train] Class 2: Precision: 0.4321, Recall: 0.2917
+[Train] Class 3: Precision: 0.4914, Recall: 0.7167
+[Train] Class 4: Precision: 0.4545, Recall: 0.0833
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:06<00:00,  1.37 batch/s] 
+[Val] Kappa: 0.5071 Accuracy: 0.5100 Precision: 0.4713 Recall: 0.5100
+
+Epoch 5/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:56<00:00,  2.26s/ batch, lr=1.0e-04, Loss=0.8062] 
+[Train] Kappa: 0.7805 Accuracy: 0.6333 Precision: 0.6093 Recall: 0.6333 Loss: 0.9494
+[Train] Class 0: Precision: 0.8169, Recall: 0.9667
+[Train] Class 1: Precision: 0.6283, Recall: 0.5917
+[Train] Class 2: Precision: 0.4583, Recall: 0.3667
+[Train] Class 3: Precision: 0.5260, Recall: 0.6750
+[Train] Class 4: Precision: 0.4167, Recall: 0.1667
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:07<00:00,  1.27 batch/s] 
+[Val] Kappa: 0.7502 Accuracy: 0.6550 Precision: 0.5843 Recall: 0.6550
+
+Epoch 6/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:53<00:00,  2.14s/ batch, lr=1.0e-04, Loss=0.8529] 
+[Train] Kappa: 0.7976 Accuracy: 0.6333 Precision: 0.6196 Recall: 0.6333 Loss: 0.9207
+[Train] Class 0: Precision: 0.8557, Recall: 0.9222
+[Train] Class 1: Precision: 0.5738, Recall: 0.5833
+[Train] Class 2: Precision: 0.4579, Recall: 0.4083
+[Train] Class 3: Precision: 0.5556, Recall: 0.6667
+[Train] Class 4: Precision: 0.4545, Recall: 0.2500
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:06<00:00,  1.43 batch/s] 
+[Val] Kappa: 0.8216 Accuracy: 0.6200 Precision: 0.5649 Recall: 0.6200
+
+Epoch 7/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:48<00:00,  1.95s/ batch, lr=1.0e-04, Loss=1.3718] 
+[Train] Kappa: 0.8028 Accuracy: 0.6483 Precision: 0.6302 Recall: 0.6483 Loss: 0.9275
+[Train] Class 0: Precision: 0.8218, Recall: 0.9222
+[Train] Class 1: Precision: 0.6174, Recall: 0.5917
+[Train] Class 2: Precision: 0.4574, Recall: 0.3583
+[Train] Class 3: Precision: 0.6000, Recall: 0.7500
+[Train] Class 4: Precision: 0.4872, Recall: 0.3167
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:05<00:00,  1.51 batch/s] 
+[Val] Kappa: 0.6480 Accuracy: 0.5600 Precision: 0.5864 Recall: 0.5600
+
+Epoch 8/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:48<00:00,  1.93s/ batch, lr=1.0e-04, Loss=0.7144] 
+[Train] Kappa: 0.8434 Accuracy: 0.6967 Precision: 0.6866 Recall: 0.6967 Loss: 0.8380
+[Train] Class 0: Precision: 0.8718, Recall: 0.9444
+[Train] Class 1: Precision: 0.7182, Recall: 0.6583
+[Train] Class 2: Precision: 0.5596, Recall: 0.5083
+[Train] Class 3: Precision: 0.6040, Recall: 0.7500
+[Train] Class 4: Precision: 0.4865, Recall: 0.3000
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:06<00:00,  1.50 batch/s] 
+[Val] Kappa: 0.7254 Accuracy: 0.6150 Precision: 0.6366 Recall: 0.6150
+
+Epoch 9/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:47<00:00,  1.90s/ batch, lr=1.0e-04, Loss=0.7990] 
+[Train] Kappa: 0.8681 Accuracy: 0.7300 Precision: 0.7205 Recall: 0.7300 Loss: 0.7217
+[Train] Class 0: Precision: 0.8974, Recall: 0.9722
+[Train] Class 1: Precision: 0.7521, Recall: 0.7333
+[Train] Class 2: Precision: 0.5631, Recall: 0.4833
+[Train] Class 3: Precision: 0.6434, Recall: 0.7667
+[Train] Class 4: Precision: 0.5952, Recall: 0.4167
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:05<00:00,  1.55 batch/s] 
+[Val] Kappa: 0.8044 Accuracy: 0.6200 Precision: 0.5734 Recall: 0.6200
+
+Epoch 10/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:51<00:00,  2.04s/ batch, lr=1.0e-04, Loss=0.5136] 
+[Train] Kappa: 0.8387 Accuracy: 0.7083 Precision: 0.7013 Recall: 0.7083 Loss: 0.7573
+[Train] Class 0: Precision: 0.8643, Recall: 0.9556
+[Train] Class 1: Precision: 0.6917, Recall: 0.6917
+[Train] Class 2: Precision: 0.5556, Recall: 0.5000
+[Train] Class 3: Precision: 0.6294, Recall: 0.7500
+[Train] Class 4: Precision: 0.6667, Recall: 0.3333
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:08<00:00,  1.05 batch/s] 
+[Val] Kappa: 0.7493 Accuracy: 0.6350 Precision: 0.6091 Recall: 0.6350
+
+Epoch 11/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:57<00:00,  2.31s/ batch, lr=1.0e-05, Loss=0.7517] 
+[Train] Kappa: 0.8759 Accuracy: 0.7483 Precision: 0.7557 Recall: 0.7483 Loss: 0.6928
+[Train] Class 0: Precision: 0.8995, Recall: 0.9444
+[Train] Class 1: Precision: 0.8667, Recall: 0.6500
+[Train] Class 2: Precision: 0.6047, Recall: 0.6500
+[Train] Class 3: Precision: 0.6479, Recall: 0.7667
+[Train] Class 4: Precision: 0.6200, Recall: 0.5167
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:09<00:00,  1.02s/ batch] 
+[Val] Kappa: 0.8133 Accuracy: 0.6500 Precision: 0.6372 Recall: 0.6500
+
+Epoch 12/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:58<00:00,  2.33s/ batch, lr=1.0e-05, Loss=0.5832] 
+[Train] Kappa: 0.8993 Accuracy: 0.8017 Precision: 0.8012 Recall: 0.8017 Loss: 0.5772
+[Train] Class 0: Precision: 0.9026, Recall: 0.9778
+[Train] Class 1: Precision: 0.8421, Recall: 0.8000
+[Train] Class 2: Precision: 0.7453, Recall: 0.6583
+[Train] Class 3: Precision: 0.6897, Recall: 0.8333
+[Train] Class 4: Precision: 0.7500, Recall: 0.5000
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:05<00:00,  1.55 batch/s] 
+[Val] Kappa: 0.8015 Accuracy: 0.6450 Precision: 0.6403 Recall: 0.6450
+
+Epoch 13/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:47<00:00,  1.90s/ batch, lr=1.0e-05, Loss=0.7115] 
+[Train] Kappa: 0.9012 Accuracy: 0.8233 Precision: 0.8193 Recall: 0.8233 Loss: 0.5473
+[Train] Class 0: Precision: 0.9219, Recall: 0.9833
+[Train] Class 1: Precision: 0.8220, Recall: 0.8083
+[Train] Class 2: Precision: 0.7699, Recall: 0.7250
+[Train] Class 3: Precision: 0.7612, Recall: 0.8500
+[Train] Class 4: Precision: 0.7209, Recall: 0.5167
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:05<00:00,  1.53 batch/s] 
+[Val] Kappa: 0.7896 Accuracy: 0.6350 Precision: 0.6224 Recall: 0.6350
+
+Epoch 14/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:47<00:00,  1.89s/ batch, lr=1.0e-05, Loss=0.4625] 
+[Train] Kappa: 0.9085 Accuracy: 0.8233 Precision: 0.8218 Recall: 0.8233 Loss: 0.5357
+[Train] Class 0: Precision: 0.9211, Recall: 0.9722
+[Train] Class 1: Precision: 0.8649, Recall: 0.8000
+[Train] Class 2: Precision: 0.7521, Recall: 0.7333
+[Train] Class 3: Precision: 0.7519, Recall: 0.8083
+[Train] Class 4: Precision: 0.7170, Recall: 0.6333
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:05<00:00,  1.53 batch/s] 
+[Val] Kappa: 0.8052 Accuracy: 0.6450 Precision: 0.6447 Recall: 0.6450
+
+Epoch 15/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:47<00:00,  1.90s/ batch, lr=1.0e-05, Loss=0.5967] 
+[Train] Kappa: 0.9097 Accuracy: 0.8083 Precision: 0.8048 Recall: 0.8083 Loss: 0.5535
+[Train] Class 0: Precision: 0.9312, Recall: 0.9778
+[Train] Class 1: Precision: 0.8417, Recall: 0.8417
+[Train] Class 2: Precision: 0.7411, Recall: 0.6917
+[Train] Class 3: Precision: 0.7109, Recall: 0.7583
+[Train] Class 4: Precision: 0.6667, Recall: 0.5667
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:05<00:00,  1.53 batch/s] 
+[Val] Kappa: 0.7804 Accuracy: 0.6400 Precision: 0.6314 Recall: 0.6400
+
+Epoch 16/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:47<00:00,  1.89s/ batch, lr=1.0e-05, Loss=0.6912] 
+[Train] Kappa: 0.9090 Accuracy: 0.8050 Precision: 0.8015 Recall: 0.8050 Loss: 0.5417
+[Train] Class 0: Precision: 0.9005, Recall: 0.9556
+[Train] Class 1: Precision: 0.7917, Recall: 0.7917
+[Train] Class 2: Precision: 0.7257, Recall: 0.6833
+[Train] Class 3: Precision: 0.7742, Recall: 0.8000
+[Train] Class 4: Precision: 0.7308, Recall: 0.6333
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:05<00:00,  1.53 batch/s] 
+[Val] Kappa: 0.7723 Accuracy: 0.6400 Precision: 0.6336 Recall: 0.6400
+
+Epoch 17/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:47<00:00,  1.90s/ batch, lr=1.0e-05, Loss=0.3933] 
+[Train] Kappa: 0.9348 Accuracy: 0.8500 Precision: 0.8486 Recall: 0.8500 Loss: 0.4834
+[Train] Class 0: Precision: 0.9468, Recall: 0.9889
+[Train] Class 1: Precision: 0.8583, Recall: 0.8583
+[Train] Class 2: Precision: 0.8000, Recall: 0.7667
+[Train] Class 3: Precision: 0.7669, Recall: 0.8500
+[Train] Class 4: Precision: 0.7955, Recall: 0.5833
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:05<00:00,  1.53 batch/s] 
+[Val] Kappa: 0.7731 Accuracy: 0.6400 Precision: 0.6306 Recall: 0.6400
+
+Epoch 18/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [01:09<00:00,  2.76s/ batch, lr=1.0e-05, Loss=0.2973] 
+[Train] Kappa: 0.9216 Accuracy: 0.8417 Precision: 0.8394 Recall: 0.8417 Loss: 0.4731
+[Train] Class 0: Precision: 0.9355, Recall: 0.9667
+[Train] Class 1: Precision: 0.8537, Recall: 0.8750
+[Train] Class 2: Precision: 0.7719, Recall: 0.7333
+[Train] Class 3: Precision: 0.7886, Recall: 0.8083
+[Train] Class 4: Precision: 0.7593, Recall: 0.6833
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:09<00:00,  1.04s/ batch] 
+[Val] Kappa: 0.8210 Accuracy: 0.6550 Precision: 0.6583 Recall: 0.6550
+
+Epoch 19/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [01:08<00:00,  2.73s/ batch, lr=1.0e-05, Loss=0.4267] 
+[Train] Kappa: 0.9268 Accuracy: 0.8500 Precision: 0.8487 Recall: 0.8500 Loss: 0.4635
+[Train] Class 0: Precision: 0.9516, Recall: 0.9833
+[Train] Class 1: Precision: 0.8583, Recall: 0.8583
+[Train] Class 2: Precision: 0.7542, Recall: 0.7417
+[Train] Class 3: Precision: 0.7953, Recall: 0.8417
+[Train] Class 4: Precision: 0.8163, Recall: 0.6667
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:08<00:00,  1.09 batch/s] 
+[Val] Kappa: 0.8099 Accuracy: 0.6450 Precision: 0.6398 Recall: 0.6450
+
+Epoch 20/20
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 25/25 [00:54<00:00,  2.17s/ batch, lr=1.0e-05, Loss=0.4026] 
+[Train] Kappa: 0.9173 Accuracy: 0.8417 Precision: 0.8409 Recall: 0.8417 Loss: 0.4470
+[Train] Class 0: Precision: 0.9412, Recall: 0.9778
+[Train] Class 1: Precision: 0.8632, Recall: 0.8417
+[Train] Class 2: Precision: 0.7931, Recall: 0.7667
+[Train] Class 3: Precision: 0.7500, Recall: 0.8500
+[Train] Class 4: Precision: 0.7727, Recall: 0.5667
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:05<00:00,  1.56 batch/s] 
+[Val] Kappa: 0.8098 Accuracy: 0.6450 Precision: 0.6428 Recall: 0.6450
+[Val] Best kappa: 0.8216, Epoch 6
+c:\Users\Ali Goodarzi\Desktop\deep learning\deep project\521153S-3005-final-project\release\task_c.py:815: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load('./model_1.pth', map_location='cpu')
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:05<00:00,  1.54 batch/s]
+[Test] Save predictions to C:\Users\Ali Goodarzi\Desktop\deep learning\deep project\521153S-3005-final-project\release\test_predictions.csv
+PS C:\Users\Ali Goodarzi\Desktop\deep learning\deep project\521153S-3005-final-project\release> 
