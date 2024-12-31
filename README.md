@@ -27,7 +27,7 @@ This folder contains the outcomes of all tasks (**Task A** to **Task D**). The r
 ### 📂 **Fine-Tuned Models**  
 This section includes pre-trained and fine-tuned weights for the following models*:  
 
-The size of the models was relatively high so upload them to the drive
+The size of the models was relatively high, so it was decided to upload them to the drive
 
 - **VGG16**  
 - **EfficientNet-B0-1**  
