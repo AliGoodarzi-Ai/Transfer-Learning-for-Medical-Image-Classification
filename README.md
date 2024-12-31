@@ -19,7 +19,7 @@ This repository contains all the necessary files, results, and scripts for the p
 This folder contains the outcomes of all tasks (**Task A** to **Task D**). The results are saved in the following formats:  
 
 - **📄 Terminal Logs**: Outputs from terminal runs during model training and evaluation, providing insights into model performance metrics like accuracy, loss, and validation scores over epochs.  
-- **📑 CSV Files**: Detailed results are saved as CSV files for each task, including predictions, evaluation metrics, and model parameters.  
+- **📑 CSV Files**: Detailed results are saved as CSV files for each task.  
 - **📊 Figures**: Visual representations of the results, named according to their respective tasks.  
 
 ---
