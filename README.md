@@ -28,7 +28,7 @@ This folder contains the outcomes of all tasks (**Task A** to **Task D**). The r
 This section includes pre-trained and fine-tuned weights for the following models*:  
 
 - **VGG16**  
-- **EfficientNet-B0**  
+- **EfficientNet-B0-1**  
 - **EfficientNet-B4**  
 - **ResNet18**  
 - **ResNet34**  
