@@ -27,7 +27,7 @@ This folder contains the outcomes of all tasks (**Task A** to **Task D**). The r
 ### 📂 **Fine-Tuned Models**  
 This section includes pre-trained and fine-tuned weights for the following models*:  
 
-The size of the models was relatively high, so it was decided to upload them to the drive
+The size of the models was relatively large,so they have been uploaded to a drive.
 
 - **VGG16**  
 - **EfficientNet-B0-1**  
@@ -37,7 +37,7 @@ The size of the models was relatively high, so it was decided to upload them to 
 - **DenseNet121**  
 - **DenseNet161**  
 
-*We have studied these models with and without incorporating **attention mechanisms**.
+*We have studied these models with and without incorporating: attention mechanisms, balancing the dataset through oversampling, and two image processing techniques: Gaussian blur and sharpening
 
 ---
 
