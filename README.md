@@ -4,7 +4,7 @@
 
 
 
-![Grad-CAM Visualization](images/gradcam_visualization.png)
+![G](images/gradcam_visualization.png)
 ---
 
 ## 💡 **Motivation**  
