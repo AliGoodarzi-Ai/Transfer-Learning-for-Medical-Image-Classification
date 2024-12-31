@@ -1,10 +1,6 @@
 # 🚀 **Project Title:**  
 **Transfer Learning for Medical Image Classification**
 
-
-
-
-![G](images/gradcam_visualization.png)
 ---
 
 ## 💡 **Motivation**  
