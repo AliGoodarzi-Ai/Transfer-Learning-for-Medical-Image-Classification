@@ -1,8 +1,17 @@
-Project Title: Fine-Tuning Deep Learning Models for Diabetic Retinopathy Detection
+Project Title:
 
-Project Overview
+  Transfer Learning for Medical Image Classification
 
-This repository contains all the necessary files, results, and scripts for the project to improve diabetic retinopathy detection using fine-tuned deep learning models. The project explores transfer learning techniques applied to medical imaging datasets. 
+Motivation: 
+
+  In medical imaging, obtaining large, labeled datasets is often challenging due to privacy concerns, high
+annotation costs, and limited availability of expert knowledge. To effectively learn and boost
+performance on these smaller datasets we leverage transfer learning techniques which consist of
+models that are trained on huge amounts of data.
+
+Project Overview:
+
+  This repository contains all the necessary files, results, and scripts for the project to improve diabetic retinopathy detection using fine-tuned deep learning models. The project explores transfer learning techniques applied to medical imaging datasets. 
 
 Repository Structure
 
@@ -12,7 +21,7 @@ This folder contains the outcomes of all tasks (Task A to Task D). The results a
 
 Terminal Logs: Outputs from terminal runs during model training and evaluation, providing insights into model performance metrics like accuracy, loss, and validation scores over epochs.
 
-CSV Files: Detailed results saved as CSV files for each task, including predictions, evaluation metrics, and model parameters.
+CSV Files: Detailed results are saved as CSV files for each task, including predictions, evaluation metrics, and model parameters.
 
 Figures: Visual representations of the results named according to their respective tasks.
 
@@ -34,7 +43,7 @@ DenseNet121
 
 DenseNet161
 
-*we have  studied with and without incorporating attention mechanisms in the model 
+*we have  studied with and without incorporating attention mechanisms on a variety of models.
 
 
 3. Scripts by Tasks
